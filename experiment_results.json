@@ -1,0 +1,34 @@
+{
+  "baseline_cv_roc_auc": 0.6487439775183413,
+  "baseline_cv_accuracy": 0.6333333333333333,
+  "baseline_test_accuracy": 0.6333333333333333,
+  "baseline_test_roc_auc": 0.6840277777777778,
+  "baseline_test_f1": 0.717948717948718,
+  "tuned_cv_roc_auc": 0.6501067597535863,
+  "tuned_test_accuracy": 0.6416666666666667,
+  "tuned_test_roc_auc": 0.6843171296296297,
+  "tuned_test_f1": 0.6950354609929078,
+  "tuned_test_precision": 0.7101449275362319,
+  "tuned_test_recall": 0.6805555555555556,
+  "best_params": "{'classifier': LogisticRegression(max_iter=1000, random_state=42), 'classifier__C': 3, 'classifier__class_weight': 'balanced'}",
+  "baseline_confusion_matrix": [
+    [
+      20,
+      28
+    ],
+    [
+      16,
+      56
+    ]
+  ],
+  "tuned_confusion_matrix": [
+    [
+      28,
+      20
+    ],
+    [
+      23,
+      49
+    ]
+  ]
+}
